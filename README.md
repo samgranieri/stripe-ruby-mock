@@ -25,7 +25,6 @@ request method to skip all http calls and
 instead directly return test data. This allows you to write and run tests
 without the need to actually hit stripe's servers.
 
-[![Code Climate](https://codeclimate.com/github/samgranieri/stripe-ruby-mock.png)](https://codeclimate.com/github/samgranieri/stripe-ruby-mock)
 You can use stripe-ruby-mock with any ruby testing library. Here's a quick dummy example with RSpec:
 
 ```ruby
